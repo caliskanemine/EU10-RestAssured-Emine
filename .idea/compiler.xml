@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EU10-RestAssured-Emine" />
+        <module name="B22-RestAssured" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EU10-RestAssured-Emine" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
